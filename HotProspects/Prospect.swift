@@ -23,7 +23,7 @@ class Prospects: ObservableObject {
     @Published private(set) var people: [Prospect]
     
     static let saveKey = "SavedData"    //For userDefaults saving
-    static let fileName = "HotProspectsSavedData"   //For File Manager saving
+    static let fileName = "HotProspectsSavedDatar1"   //For File Manager saving
     
     let persistenceType: PersistenceType = .fileManager
     
